@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    height: 100%;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: "head head head head head head aside aside aside aside aside aside aside " ;
+
+}
+.aside{
+grid-area: head;
+margin-top: 20px;
+}
+.scroll{
+    grid-area: scroll;
+}
+.head{
+    grid-area: aside;
+}
+.page .aside p{
+    margin-bottom: 10px;
+}
+.page .aside h3{
+    color: #d83491;
+}
+.page .aside .badge{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.page .aside .badge i{
+    /* display: inline-block; */
+    margin-left: 10px;
+}
+.page .aside .menu{
+    display: flex;
+    
+    
+}
+.page .aside .menu .stick-ec{
+    display: flex;
+
+
+}
+.page .aside .menu .stick-ec .blu{
+    color: #296cf4;
+}
+.page .aside .menu .stick-ec .pick{
+    color: #296cf4;
+    margin-left: 10px;
+}
+.page .aside .menu  .list{
+    margin-left: 20px;
+}
+.page .aside .menu  .list i {
+    padding: 2px;
+}
+.page .aside .menu  .stick  {
+    display: flex;
+}
+.page .aside .menu  .stick i {
+    color:#d6dee7;
+}
+.page .aside .menu  .stick p {
+    color:#77789b;
+    margin-left: 10px;
+}
+.prototype{
+    display: flex;
+}
+.prototype i{
+    margin-left: 20px;
+}
+.head .pyt {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.head .pyt h1{
+    color:#241d60;
+    font-weight: bold;
+}
+.head .pyt .previous,.next{
+    display: flex;
+    align-items: center;
+    
+   
+   
+}
+.head .pyt .previous i{
+    font-size: 25px;
+}
+.head .pyt .previous h3{
+    background-color: #241d60;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.head .pyt .next h3{
+background-color: #241d60;
+color: white;
+border-radius: 20px;
+padding: 10px;
+font-size:15px;
+
+}
+.head .pyt .next i{
+    font-size: 25px;
+    margin-left: 5px;
+    
+    }
+.head .py{
+    display: flex;
+    width:30%;
+    margin: auto;
+    align-items: center;
+}
+.head .py .fa-circle-chevron-left{
+    color:#b6b2b2;
+    font-size: 20px;
+} 
+.head .py h2{
+    color:#b6b2b2;
+    margin-left: 5px;
+}
+.head .py .fa-circle-chevron-right{
+    color: #241d60;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.content{
+    width: 90%;
+    height: 2px;
+    background-color:#b6b2b2;
+    margin: 10px 0;
+
+}
+.head  .title{
+    display: flex;
+    
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.head  .title .fa-chevron-left,.fa-chevron-right{
+color: #241d60;
+
+font-size: 20px;
+}
+.head  .title .title-3min{
+    display: flex;
+    align-items: center;
+    background-color: #241d60;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    width: 100px;
+}
+
+.head  .title .title-3min h3{
+    margin-left: 5px;
+}
+.head  .title .title-3min h3 span{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 8px;
+
+
+}
+.head  .title .title-12min{
+    display: flex;
+    align-items: center;
+    background-color: #D7D9DB;
+    font-size: 12px;
+    padding: 5px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    width: 100px;
+}
+.head  .title .title-12min p{
+   
+    margin-left: 5px;
+}
+.head  .title .title-12min p span{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 9px;
+
+
+}
+.head h2{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px
+    
+   
+   ;
+}
+.head .cont{
+    width: 50%;
+    height: 2px;
+    background-color: #b6b2b2;
+    margin-left: 20px;
+}
+.head .comment{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    margin: 10px 0 10px 20px;
+}
+.head .comment i{
+    color: #737373;
+    padding: 0 5px;
+}
+.head .youtube-tags{
+    display: flex;
+    align-items: center;
+    height: 250px;
+
+}
+.head .youtube-tags .yt{
+    width: 60%;
+
+    
+}
+.head .youtube-tags .yt .fa-youtube{
+   font-size: 300px;
+   color: #737373;
+}
+.head .tags{
+    background-color: #241d60;
+    height: 100%;
+    padding: 20px;
+}
+.head .tags .tag{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.head .tags .tag p{
+    margin-left: 5px;
+    
+}
+.con{
+    width: 70px;
+    height: 1px;
+    background-color: white;
+    margin: 10px auto;
+    
+}
+.head .parag{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.head .notes{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.head .notes p{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.head .not{
+    
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.head .not p{
+    padding: 5px 0;
+    font-size: 12px;
+}
+.head .not p span{
+    font-weight: bold;
+}
+.head .btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.head .btn button{
+    margin-left: 100px;
+    background-color: #241d60;
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 12px;
+}
